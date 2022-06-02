@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+.chordsGrid{
+  display:flex;
+
+  .chord{
+    flex: 0 0 15%;
+  }
+}
