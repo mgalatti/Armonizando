@@ -57,10 +57,16 @@ ins {
   text-align: left;
 }
 
-
-.chordsWrapper{
-  display:flex;
-  .chord{
-    flex: 0 0 15%;
+.chordsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  .chord {
+    flex: 0 0 14%;
   }
+}
+.positionSelect {
+  width: 4rem;
+  min-width: auto;
+  text-align: center;
 }

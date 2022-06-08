@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import s from './Select.module.scss';
-console.log(s)
 
 function Select(props) {
   const {
