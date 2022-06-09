@@ -63,6 +63,9 @@ ins {
   align-items: flex-start;
   .chord {
     flex: 0 0 14%;
+    @media screen and (max-width: 480px){
+      flex: 0 0 100%;
+    }
   }
 }
 .positionSelect {

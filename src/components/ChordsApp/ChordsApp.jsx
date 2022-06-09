@@ -35,6 +35,7 @@ export default function ChordsApp() {
  };
   const sanitizedNotes = []
   const re = new RegExp(Object.keys(sanitizeSharps).join("|"),"gi"); 
+console.log(re)
 
   notes.forEach((note) => {
     const noteArray = note.replace(re, (matched) => sanitizeSharps[matched]);
@@ -128,6 +129,7 @@ export default function ChordsApp() {
         {chordsCalculated?.map((element, idx) => {
           return (
             <div className={s.chord} key={`chordCalculated-${idx}`}>
+              <h3>{element.key + element.suffix}</h3>
               <MyChord
                 chord={element?.positions[positionSelected]}
                 instrument={instrument}
