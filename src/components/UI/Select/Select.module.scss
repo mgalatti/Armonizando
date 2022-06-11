@@ -1,6 +1,7 @@
 .selectWrapper{
   display:flex;
   flex-direction: column;
+  margin: 0 auto;
   row-gap: 0.2rem;
   
   label{
@@ -10,6 +11,6 @@
 
   select{
     padding: 0.7rem;
-    min-width: 10rem;
+    min-width: 4rem;
   }
 }
