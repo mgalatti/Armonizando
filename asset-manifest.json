@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Armonizando/static/css/main.1622ef42.css",
-    "main.js": "/Armonizando/static/js/main.6a55d799.js",
+    "main.css": "/Armonizando/static/css/main.8d924ea8.css",
+    "main.js": "/Armonizando/static/js/main.9f60181d.js",
     "static/js/787.0c4c90b4.chunk.js": "/Armonizando/static/js/787.0c4c90b4.chunk.js",
+    "static/media/wood-pattern.png": "/Armonizando/static/media/wood-pattern.c226c30cc5a03f9b9f5e.png",
     "index.html": "/Armonizando/index.html",
-    "main.1622ef42.css.map": "/Armonizando/static/css/main.1622ef42.css.map",
-    "main.6a55d799.js.map": "/Armonizando/static/js/main.6a55d799.js.map",
+    "main.8d924ea8.css.map": "/Armonizando/static/css/main.8d924ea8.css.map",
+    "main.9f60181d.js.map": "/Armonizando/static/js/main.9f60181d.js.map",
     "787.0c4c90b4.chunk.js.map": "/Armonizando/static/js/787.0c4c90b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1622ef42.css",
-    "static/js/main.6a55d799.js"
+    "static/css/main.8d924ea8.css",
+    "static/js/main.9f60181d.js"
   ]
 }
